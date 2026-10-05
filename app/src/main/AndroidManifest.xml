@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TenantManagementSytem">
         <activity
-            android:name="com.example.tenantmanagementsytem.MainActivity"
+            android:name="com.example.tenantmanagementsytem.LoginActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -21,6 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.tenantmanagementsytem.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.tenantmanagementsytem.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
